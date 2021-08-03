@@ -1,0 +1,26 @@
+[
+    {
+        "model": "levelupapi.event",
+        "pk": 1,
+        "fields": {
+            "host_id": 1,
+            "game_id": 1,
+            "date": "2021-8-3",
+            "time": "14:20",
+            "description": "generic description",
+            "title": "Battleship Tourny"
+        }
+    },
+    {
+        "model": "levelupapi.event",
+        "pk": 2,
+        "fields": {
+            "host_id": 1,
+            "game_id": 2,
+            "date": "2021-8-3",
+            "time": "14:20",
+            "description": "generic description",
+            "title": "Clue Tourny"
+        }
+    }
+]

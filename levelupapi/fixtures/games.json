@@ -1,0 +1,26 @@
+[
+    {
+        "model": "levelupapi.game",
+        "pk": 1,
+        "fields": {
+            "name": "Battleship",
+            "game_type_id": 1,
+            "description": "a strategy type guessing game",
+            "number_of_players": 2,
+            "gamer_id": 1,
+            "maker": "Hasbro"
+        }
+    },
+    {
+        "model": "levelupapi.game",
+        "pk": 2,
+        "fields": {
+            "name": "Clue",
+            "game_type_id": 1,
+            "description": "a murder mystery game",
+            "number_of_players": 6,
+            "gamer_id": 1,
+            "maker": "Hasbro"
+        }
+    }
+]

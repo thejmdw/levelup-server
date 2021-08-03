@@ -3,24 +3,65 @@
         "model": "levelupapi.game",
         "pk": 1,
         "fields": {
-            "name": "Battleship",
+            "title": "Battleship",
             "game_type_id": 1,
             "description": "a strategy type guessing game",
             "number_of_players": 2,
             "gamer_id": 1,
-            "maker": "Hasbro"
+            "maker": "Hasbro",
+            "skill_level": 2
         }
     },
     {
         "model": "levelupapi.game",
         "pk": 2,
         "fields": {
-            "name": "Clue",
+            "title": "Clue",
             "game_type_id": 1,
             "description": "a murder mystery game",
             "number_of_players": 6,
             "gamer_id": 1,
-            "maker": "Hasbro"
+            "maker": "Hasbro",
+            "skill_level": 3
+        }
+    },
+    {
+        "model": "levelupapi.game",
+        "pk": 3,
+        "fields": {
+            "title": "Welcome To",
+            "maker": "Benoit Turpin",
+            "description": "Generic Game",
+            "gamer_id": 1,
+            "game_type_id": 1,
+            "number_of_players": 4,
+            "skill_level": 3
+        }
+    },
+    {
+        "model": "levelupapi.game",
+        "pk": 4,
+        "fields": {
+            "title": "Settlers of Catan",
+            "maker": "Klaus Teuber",
+            "description": "No Idea",
+            "gamer_id": 1,
+            "game_type_id": 1,
+            "number_of_players": 4,
+            "skill_level": 4
+        }
+    },
+    {
+        "model": "levelupapi.game",
+        "pk": 5,
+        "fields": {
+            "title": "Dungeons & Dragons",
+            "maker": "Wizards of the Coast",
+            "description": "Table Top Craziness",
+            "gamer_id": 1,
+            "game_type_id": 2,
+            "number_of_players": 5,
+            "skill_level": 3
         }
     }
 ]

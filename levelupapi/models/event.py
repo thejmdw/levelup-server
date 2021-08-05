@@ -7,6 +7,15 @@ class Event(models.Model):
     time = models.TimeField()
     description = models.TextField()
     title = models.CharField(max_length=50)
+    attendees = models.ManyToManyField("Gamer", through="EventGamer", related_name="attending")
 
     def __str__(self):
         return self. title
+
+    @property
+    def joined(self):
+        return self.__joined
+
+    @joined.setter
+    def joined(self, value):
+        self.__joined = value
